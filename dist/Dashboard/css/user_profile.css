@@ -1,0 +1,39 @@
+
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button {
+    padding: 8px 30px 9px 30px;
+    color: #fff !important;
+    border-radius: 50px;
+    transition: 0.3s;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+    display: inline-flex;
+    align-items: center;
+    border: 2px solid #4272d7 !important;
+    color: #4272d7;
+}
+
+.profile-button:hover {
+    background: #4272d7;
+}
+
+.profile-button:focus {
+    /* background: #682773; */
+    box-shadow: none
+}
+
+.profile-button:active {
+    /* background: #682773; */
+    box-shadow: none
+}
+
+.back a h6:hover, .back .back:hover {
+    color:  #4272d7 !important;
+    cursor: pointer
+}
